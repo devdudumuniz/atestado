@@ -34,7 +34,6 @@
             </div>
         </div>
         <div class="contAssina">
-            <div class="carimbo"><img src="../../assets/img/assinaturaSilvio.png" alt=""></div>
             <div class="assinatura">
                 <p>Assinatura / Carimbo</p>
             </div>
