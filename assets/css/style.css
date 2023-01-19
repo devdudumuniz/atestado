@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+:root{
+    --cor-header: #7db636;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    -webkit-print-color-adjust: exact;
+}
+.header{
+    position: relative;
+    height: 10em;
+    width: 100%;
+}
+.contLogo{
+    top: 4%;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    z-index: 3;
+
+}
+.contLogo img{
+    height: 6em;
+}
+.subHeader{
+    justify-content: space-between;
+    display: flex;
+    font-family: 'Lato', sans-serif;
+    font: 2em;
+    margin: 2% auto;
+    width: 95%;
+}
+.contRight img{
+    width: 50px;
+    height: 60px;
+}
+.body{
+    position: relative;
+}
+h2{
+    margin: 6% auto 4% auto;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-size: 1.5em;
+    width:100%;
+}
+.backgroudPsi{
+    height: 40em;
+    background: url("../img/psi.svg");
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: .1;
+}
+.contPreen{
+    top: 3%;
+    position: absolute;
+    width: 95%;
+    margin: auto 2.5%;
+}
+.contPreen p{
+    margin: 1% 0;
+    font-size: 1.2em;
+}
+#paciente{
+    padding: 0 1%;
+    text-decoration: underline;
+    font-weight: 800;
+    font-family: 'Lato', sans-serif;
+    
+}
+.periodo{
+    padding:  0 1%;
+    text-decoration: underline;
+    font-weight:500;
+    font-family: 'Lato', sans-serif;
+}
+.contMark{
+    margin: 2% 0;
+    align-items:center;
+    display:flex;
+
+}
+.mark{
+    position: relative;
+    height: 30px;
+    width: 30px;
+    border: 1px solid #c0bfbf;
+    margin-right: 3%;
+    margin-left: 1%;
+}
+.mark i{
+    top: -9px;
+    position: absolute;
+    color: var(--cor-header);
+    font-size: 2.5em;
+}
+.contAssina{
+    left: 25%;
+    bottom: 25%;
+    position: absolute;
+    width: 50%;
+}
+.carimbo{
+    padding-top: 8%;
+    justify-content: center;
+    display: flex;
+    height: 5em;
+}
+.carimbo img{
+    margin: auto;
+}
+.assinatura{
+    border-top: 1px solid #000;
+}
+
+.assinatura p{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-size: .8em;
+}
+.footer{
+    top: 55em;
+    height: 10em;
+    width: 100%;
+    position: absolute;
+}
+.endereco{
+    color: #fff;
+    font-family: 'lato', sans-serif;
+    bottom: 2%;
+    right: 2%;
+    z-index: 3;
+    position: absolute;
+}
+.endereco h6{
+    margin-bottom: 2%;
+    font-size: 1.021em;
+}
+.endereco div{
+
+}
+.endereco > div > p{
+    text-align: end;
+    margin: 1% auto;
+}
+
+
